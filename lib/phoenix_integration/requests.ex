@@ -52,7 +52,7 @@ defmodule PhoenixIntegration.Requests do
       end
   """
 
-  @endpoint Application.get_env(:phoenix_integration, :endpoint)
+  @endpoint Application.compile_env(:phoenix_integration, :endpoint)
 
   # ----------------------------------------------------------------------------
   @doc """
